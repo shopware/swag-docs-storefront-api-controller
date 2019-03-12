@@ -1,0 +1,26 @@
+{
+    "name": "swag/storefront-api-controller",
+    "description": "Storefront API controller plugin",
+    "version": "v1.0.0",
+    "type": "shopware-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shopware AG"
+        }
+    ],
+    "require": {
+        "shopware/platform": "dev-master"
+    },
+    "extra": {
+        "installer-name": "StorefrontApiController",
+        "label": {
+            "de_DE": "Beispiel Storefront API Controller",
+            "en_GB": "Example Storefront API controller"
+        },
+        "description": {
+            "de_DE": "Beispiel Storefront API Controller",
+            "en_GB": "Example Storefront API controller"
+        }
+    }
+}
