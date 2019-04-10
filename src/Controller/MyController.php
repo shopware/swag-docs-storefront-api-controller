@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace StorefrontApiController\Controller;
+namespace Swag\SalesChannelApiController\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
@@ -9,10 +9,10 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 class MyController extends AbstractController
 {
     /**
-     * @Route("/storefront-api/v1/swag/my-storefront-api-action", name="storefront-api.action.swag.my-storefront-api-action", methods={"GET"})
+     * @Route("/sales-channel-api/v1/swag/my-sales-channel-api-action", name="sales-channel-api.action.swag.my-sales-channel-api-action", methods={"GET"})
      */
     public function myFirstApi(): JsonResponse
     {
-        return new JsonResponse(['You successfully created your first storefront api controller route']);
+        return new JsonResponse(['You successfully created your first SalesChannel-API controller route']);
     }
 }
