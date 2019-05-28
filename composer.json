@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\SalesChannelApiController\\SalesChannelApiController",
         "label": {
-            "de-DE": "Beispiel Storefront API Controller",
-            "en-GB": "Example Storefront API controller"
+            "de-DE": "Label für das Plugin SalesChannelApiController",
+            "en-GB": "Label for the plugin SalesChannelApiController"
         },
         "description": {
-            "de-DE": "Beispiel Storefront API Controller",
-            "en-GB": "Example Storefront API controller"
+            "de-DE": "Beschreibung für das Plugin SalesChannelApiController",
+            "en-GB": "Description for the plugin SalesChannelApiController"
         }
     },
     "autoload": {
