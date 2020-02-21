@@ -10,7 +10,7 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 class MyController extends AbstractController
 {
     /**
-     * @RouteScope(scopes={"storefront"})
+     * @RouteScope(scopes={"sales-channel-api"})
      * @Route("/sales-channel-api/v1/swag/my-sales-channel-api-action", name="sales-channel-api.action.swag.my-sales-channel-api-action", methods={"GET"})
      */
     public function myFirstApi(): JsonResponse
